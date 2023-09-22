@@ -1,0 +1,52 @@
+
+.Recursos {
+  justify-content: center;
+}
+
+.Blocos {
+    background-color: rgba(229, 223, 223, 0.38);
+    width: 90%;
+    border-radius: 2rem;
+    margin: 4rem;
+    display: flex; /* Define o contêiner como flexível para organizar imagem e texto lado a lado */
+    align-items: center; /* Centraliza verticalmente os elementos dentro do contêiner */
+    justify-content: center;
+  }
+  
+  .Blocos img {
+    height: 100%;
+    width: 30vh; /* Define a largura máxima da imagem (ajuste conforme necessário) */
+    margin-right: 2rem; /* Espaçamento entre a imagem e o texto (ajuste conforme necessário) */
+  }
+  
+  .Blocos-text {
+    justify-content: center;
+    flex: 1; /* Permite que o texto ocupe o espaço restante no contêiner */
+  }
+  
+  .Blocos p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    background: #9595958a;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 100%;
+    
+  }
+
+  .bloquinho {
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    margin: 2rem;
+  }
+
+  /* .imagensns {
+    width: 15rem;
+    height: 15rem;
+  } */
+  
+  .bloquinho figure img{
+    width: 20rem;
+    height: 20rem;
+  }
